@@ -197,49 +197,41 @@ export class MultipleOrganizationsTrophy extends Trophy{
     this.filterTitles = ["Organizations", "Orgs", "Teams"];
     this.hidden = true;
   }
-}
-
-export class TotalStarTrophy extends Trophy {
-  constructor(score: number) {
-    const rankConditions = [
-      new RankCondition(
-        RANK.SSS,
-        "Super Stargazer",
-        2000,
+2000,
       ),
       new RankCondition(
-        RANK.SSS,
-        "Super Stargazer",
+        RANK.SS,
+        "High Stargazer",
         700,
       ),
       new RankCondition(
-        RANK.SSS,
-        "Super Stargazer",
+        RANK.S,
+        "Stargazer",
         200,
       ),
       new RankCondition(
-        RANK.SSS,
-        "Super Stargazer",
+        RANK.AAA,
+        "Super Star",
         100,
       ),
       new RankCondition(
-        RANK.SSS,
-        "Super Stargazer",
+        RANK.AA,
+        "High Star",
         50,
       ),
       new RankCondition(
-        RANK.SSS,
-        "Super Stargazer",
+        RANK.A,
+        "You are a Star",
         30,
       ),
       new RankCondition(
-        RANK.SSS,
-        "Super Stargazer",
+        RANK.B,
+        "Middle Star",
         10,
       ),
       new RankCondition(
-        RANK.SSS,
-        "Super Stargazer",
+        RANK.C,
+        "First Star",
         1,
       ),
     ];
